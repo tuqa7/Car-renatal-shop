@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+/* * {
+	box-sizing: border-box;
+} */
+
+.addCar-body {
+	background: #f6f5f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height:100%;
+	width: 100%;
+	/* margin: -20px 0 50px; */
+	padding-top: 20px;
+	/* padding: 20px; */
+	
+}
+
+.addcar-form-container{
+	padding: 20px;
+}
+
+.addcar-container h1 {
+	font-weight: bold;
+	margin: 0;
+	color: #ff4714;
+}
+
+.addcar-container label{
+  font-size:large;
+  font-weight:500;
+ 
+}
+
+/* .addcar-container h2 {
+	text-align: center;
+} */
+
+
+.addcar-container button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+.addcar-container button:active {
+	transform: scale(0.95);
+}
+
+.addcar-container button:focus {
+	outline: none;
+}
+
+.addcar-container button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+.addcar-container form {
+	background-color: #fff;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+	color: rgb(196, 14, 14);
+	row-gap: 10px;
+}
+
+.addcar-container input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+/* 1 */
+.addcar-container {
+	
+	box-sizing: border-box;
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 800px;
+	max-width: 100%;
+	min-height: 500px;
+}
+/* 2 */
+/* .addcar-form-container {
+	position: relative;
+  width: 100%;
+  height: 100%;
+	top: 0;
+} */
+
+ .rowonaddcar{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+
+}
+.rowonaddcarRadio{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+
+}
+
+.Select{
+	border: none;
+}

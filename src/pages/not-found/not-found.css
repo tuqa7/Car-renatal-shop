@@ -1,0 +1,12 @@
+.notFoundbody {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.notfoundimgdiv {
+  text-align: "center";
+  margin-top: "40px";
+  display: flex;
+  justify-content: center;
+}

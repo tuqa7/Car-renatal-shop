@@ -1,0 +1,101 @@
+.search {
+  width: 100%;
+
+  /* height: fit-content;*/
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* flex-shrink: 2;  */
+}
+.cloud {
+  /* height: fit-content; */
+  /* width: max-content; */
+  /* width: fit-content; */
+  background-color: rgb(235, 232, 232);
+  border-radius: 15px;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.cloud > .colsearchbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: rgb(235, 232, 232);
+
+}
+
+.colsearchbar > select,
+.colsearchbar > input {
+  border: none;
+  background-color: rgb(235, 232, 232);
+  appearance: none;
+  width: fit-content;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+}
+
+.colsearchbar > .label {
+  color:rgb(145, 145, 145);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-align: start;
+  width: fit-content;
+  background-color: rgb(235, 232, 232);
+}
+
+
+.search>button {
+  padding: 1.5em 3em;
+  font-size: 12px;
+  margin-top: 10px;
+  /* margin-right: 30px; */
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+
+  /* background-color: #ff471463; */
+  color: #fff;
+  background-color: #ff4714;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.search button:hover {
+  background-color: wheat;
+  box-shadow: 0px 15px 20px rgba(229, 134, 46, 0.4);
+  color: #000;
+  transform: translateY(-7px);
+}
+
+.search button:active {
+  transform: translateY(-1px);
+}
+
+
+.date {
+  font-weight: bold;
+  background-color: rgb(235, 232, 232); 
+  border: none;
+  width: 80px;
+}
+
+.timepicker{
+  font-weight: bold;
+  background-color: rgb(235, 232, 232); 
+  border: 5px;
+}
+

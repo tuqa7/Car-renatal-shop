@@ -1,0 +1,148 @@
+.FilterColumn {
+  width: 300px;
+  height: fit-content;
+  padding: 10px 30px;
+  /* background-color: rgba(250, 154, 234, 0.582); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-top: 2px solid rgb(250, 243, 243);
+  font-family:Arial, Helvetica, sans-serif;
+ 
+}
+
+.filterlabel {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.cartypelabel {
+  font-size: 11px;
+  font-weight: 700;
+  color: rgb(172, 167, 167);
+
+  text-align: left;
+  margin-top: 25px;
+}
+
+row {
+  align-items: center;
+}
+
+.lola {
+  /* background-color: blueviolet; */
+  text-align: start;
+  margin: 5px;
+  margin-left: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.lola >label{
+  font-size:  13px;
+  font-weight: 500;
+  margin-left: 5px;
+  color: black;
+}
+
+.lola > span {
+  margin-left: 5px;
+  color: rgb(83, 83, 83);
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.range {
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  background-color: wheat;
+}
+
+input[type="range"] {
+  /* -webkit-appearance: none;*/
+  /* -moz-appearance: none;  */
+  /* -webkit-border-radius: 30px; */
+  width: fit-content;
+  height: 10px;
+  width: 170px;
+  padding: 0;
+  border-radius: 5px;
+  /* outline: white  solid 1px; */
+  accent-color: #ff4714;
+  filter: hue-rotate(0deg);
+  margin: 10px;
+  cursor: grab;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  /* -webkit-appearance: none; */
+  width: 13px;
+  height: 17px;
+  background: orangered;
+  border-radius: 50%;
+}
+
+.filterform > hr {
+  color: rgb(250, 243, 243);
+  height: 2px;
+  background-color: rgb(250, 243, 243);
+  border: none;
+}
+
+/* 
+input[type="checkbox"]:checked {
+  accent-color: #ff4714;
+ 
+} */
+
+
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+
+input[type=checkbox] {
+  padding: 10px;
+  position: relative;
+  /* width: 10px;
+  height: 10px; */
+  color: #363839;
+  border: 1px solid #bdc1c6;
+  
+  border-radius:7px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  cursor: pointer;
+  transition: background 175ms cubic-bezier(0.1, 0.1, 0.25, 1);
+}
+input[type=checkbox]::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 2px;
+  left: 7px;
+  width: 8px;
+  height: 14px;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+}
+input[type=checkbox]:checked {
+  color: #fff;
+  border-color: #ff4714;
+  background: #ff4714;
+ 
+}
+input[type=checkbox]:checked::before {
+  opacity: 1;
+
+}
